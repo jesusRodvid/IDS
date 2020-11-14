@@ -16,7 +16,7 @@ public class Main extends Application{
 	
 	public void start(Stage stage) throws Exception {       
 		 Parent root = FXMLLoader.load(getClass().getResource("fxmlvista.fxml"));
-	        Scene sc = new Scene(root, 400, 200);
+	        Scene sc = new Scene(root);
 	        stage.setScene(sc);
 	        stage.show();
 	    
