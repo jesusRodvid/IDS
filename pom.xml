@@ -5,6 +5,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Inicio de sesion </name>
   <description>Programa que permite acceder a la sesion con usuario y contraseña</description>
+  	<properties>
+		<maven.compiler.target>14</maven.compiler.target>
+		<maven.compiler.source>14</maven.compiler.source>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<exec.mainClass>dad.primertrimestre.ids.Main</exec.mainClass>
+		</properties>
   <dependencies>
 		<dependency>
 			<groupId>org.openjfx</groupId>
