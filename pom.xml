@@ -6,12 +6,12 @@
   <name>Inicio de sesion </name>
   <description>Programa que permite acceder a la sesion con usuario y contraseña</description>
   	<properties>
-		<maven.compiler.target>14</maven.compiler.target>
-		<maven.compiler.source>14</maven.compiler.source>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<exec.mainClass>dad.primertrimestre.ids.Main</exec.mainClass>
-		</properties>
-  <dependencies>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <maven.compiler.source>14</maven.compiler.source>
+  <maven.compiler.target>14</maven.compiler.target>
+  <exec.mainClass>dad.primertrimestre.ids.Main</exec.mainClass>
+  </properties>
+   <dependencies>
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-controls</artifactId>
@@ -21,6 +21,11 @@
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-fxml</artifactId>
 			<version>14.0.1</version>
-		</dependency>
+			</dependency>
+			<dependency>
+    <groupId>commons-codec</groupId>
+    <artifactId>commons-codec</artifactId>
+    <version>1.13</version>
+</dependency>
 		</dependencies>
 </project>
